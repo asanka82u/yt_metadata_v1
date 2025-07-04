@@ -1,0 +1,23 @@
+{
+  "name": "youtube-metadata-extractor",
+  "version": "1.0.0",
+  "description": "A web app to extract metadata from YouTube videos without using the YouTube API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "youtube",
+    "metadata",
+    "extractor",
+    "nodejs",
+    "web-scraping"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
+    "express": "^5.1.0"
+  }
+}
